@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart City Management Events</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('smartcity3.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .event {
+            background-color: rgba(255, 255, 255, 0.8);
+            margin: 10px 0;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            flex: 1 1 calc(33% - 20px);
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .event img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .event h2 {
+            margin-top: 0;
+        }
+        .event .date, .event .location {
+            color: #888;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Smart City Management Events</h1>
+    </header>
+    <div class="container">
+        <div class="event">
+            <img src="smartexpo.jpg" alt="Smart City Expo">
+            <h2>Smart City Expo</h2>
+            <p class="date">Date: September 15, 2024</p>
+            <p class="location">Location: New York City, NY</p>
+            <p>Join us for the Smart City Expo where experts and city officials discuss the latest trends and technologies in urban management.</p>
+        </div>
+        <div class="event">
+            <img src="infra.jpg" alt="IoT and Smart Infrastructure Conference">
+            <h2>IoT and Smart Infrastructure Conference</h2>
+            <p class="date">Date: October 20, 2024</p>
+            <p class="location">Location: San Francisco, CA</p>
+            <p>Explore the impact of IoT on city infrastructure and how it can be leveraged for smarter city planning and management.</p>
+        </div>
+        <div class="event">
+            <img src="urban.jpg" alt="Urban Mobility Workshop">
+            <h2>Urban Mobility Workshop</h2>
+            <p class="date">Date: November 10, 2024</p>
+            <p class="location">Location: Chicago, IL</p>
+            <p>Attend this workshop to learn about the latest innovations in urban mobility and how they can improve city living.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Smart City Management. All rights reserved.</p>
+    </footer>
+</body>
+</html>
