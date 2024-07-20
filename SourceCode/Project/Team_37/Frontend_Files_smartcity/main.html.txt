@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart City Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #333;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        a:hover {
+            background-color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Smart City Management</h1>
+</header>
+
+<div class="container">
+    <h2>Welcome to Smart City Management</h2>
+    <p>Explore our infrastructure and partnership initiatives.</p>
+    <a href="infrastructure.html">Infrastructure</a>
+    <a href="partnership.html">Partnerships</a>
+</div>
+
+<footer>
+    <p>&copy; 2024 Smart City Management. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
